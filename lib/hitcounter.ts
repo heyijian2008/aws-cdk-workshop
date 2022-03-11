@@ -21,7 +21,8 @@ export class HitCounter extends cdk.Construct {
         partitionKey: { 
           name: 'path', 
           type: dynamodb.AttributeType.STRING 
-        }
+        },
+        encryption: dynamodb.TableEncryption.AWS_MANAGED
     });
     this.table = table;
 
