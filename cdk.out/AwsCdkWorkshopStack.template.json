@@ -782,7 +782,7 @@
               "Ref": "HelloHitCounterHits7AAEBF80"
             },
             "TITLE": "Heyijian2008 Hits",
-            "SORT_BY": ""
+            "SORT_BY": "hits"
           }
         },
         "Handler": "index.handler",

@@ -25,7 +25,8 @@ export class AwsCdkWorkshopStack extends cdk.Stack {
 
     const myTableViewer = new TableViewer(this, 'ViewHitCounter', {
       title: 'Heyijian2008 Hits',
-      table: helloWithCounter.table
+      table: helloWithCounter.table,
+      sortBy: 'hits'
     });
   }
 }
