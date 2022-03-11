@@ -1,0 +1,769 @@
+{
+  "version": "16.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "AwsCdkWorkshopStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "AwsCdkWorkshopStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/AwsCdkWorkshopStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf",
+              "id": "169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf",
+              "packaging": "zip",
+              "sourceHash": "169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf",
+              "s3BucketParameter": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfS3Bucket7674F226",
+              "s3KeyParameter": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfS3VersionKeyAAA1506D",
+              "artifactHashParameter": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfArtifactHash4E4F1BEE"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.ts:453:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:186:23)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:86:19)",
+              "AwsCdkWorkshopStack.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:679:29)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:53",
+              "withoutDeprecationWarnings (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:218:12)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:14)",
+              "new Asset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:152:40)",
+              "AssetCode.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:285:20)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:683:29)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:358:18)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:663:31)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:741:35)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/AssetParameters/169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfS3Bucket7674F226",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:169:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:86:19)",
+              "AwsCdkWorkshopStack.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:679:29)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:53",
+              "withoutDeprecationWarnings (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:218:12)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:14)",
+              "new Asset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:152:40)",
+              "AssetCode.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:285:20)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:683:29)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/AssetParameters/169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfS3VersionKeyAAA1506D",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:169:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:86:19)",
+              "AwsCdkWorkshopStack.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:679:29)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:53",
+              "withoutDeprecationWarnings (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:218:12)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:14)",
+              "new Asset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:152:40)",
+              "AssetCode.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:285:20)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:683:29)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/AssetParameters/169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcf/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters169bd8fdf1db1eee37fe1e7665acf34bea75ef00c7d54759abc560e7a80a1dcfArtifactHash4E4F1BEE",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:169:16)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:86:19)",
+              "AwsCdkWorkshopStack.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack.ts:679:29)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:53",
+              "withoutDeprecationWarnings (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:218:12)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.ts:91:14)",
+              "new Asset (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.ts:152:40)",
+              "AssetCode.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.ts:285:20)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:683:29)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:10:19)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHitCounter/Hits/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHits7AAEBF80",
+            "trace": [
+              "new Table (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:1180:18)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:18:19)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:16:30)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleD45002B8",
+            "trace": [
+              "new Role (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:358:18)",
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:663:31)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:22:20)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:16:30)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleDefaultPolicy1487A60A",
+            "trace": [
+              "new Policy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:399:28)",
+              "Function.addToPrincipal (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:164:61)",
+              "Table.combinedGrant (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:994:29)",
+              "Table.grantReadWriteData (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:754:17)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:33:11)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:16:30)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/HelloHitCounter/HitCounterHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerDAEA7B37",
+            "trace": [
+              "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:741:35)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:22:20)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:16:30)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:738:22)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:358:18)",
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:520:18)",
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:756:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi._configureCloudWatchRole (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:525:30)",
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:756:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DA5caa73f0d975d65bd435d06541de11d8",
+            "trace": [
+              "new Deployment (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\deployment.ts:75:21)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:553:32)",
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:759:10)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\stage.ts:242:22)",
+              "LambdaRestApi._configureDeployment (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:563:30)",
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:759:10)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi._configureDeployment (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:568:7)",
+              "new RestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\restapi.ts:759:10)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:50:5)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:446:22)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:518:5)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.AwsCdkWorkshopStackEndpoint483FDF45.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionAwsCdkWorkshopStackEndpoint483FDF45ANYproxy66690C7A",
+            "trace": [
+              "Function.addPermission (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:286:5)",
+              "LambdaIntegration.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:64:18)",
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:200:36)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.AwsCdkWorkshopStackEndpoint483FDF45.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionTestAwsCdkWorkshopStackEndpoint483FDF45ANYproxy5CC15223",
+            "trace": [
+              "Function.addPermission (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:286:5)",
+              "LambdaIntegration.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:72:20)",
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:200:36)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:218:22)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:540:18)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.AwsCdkWorkshopStackEndpoint483FDF45.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionAwsCdkWorkshopStackEndpoint483FDF45ANY478E3E9A",
+            "trace": [
+              "Function.addPermission (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:286:5)",
+              "LambdaIntegration.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:64:18)",
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:200:36)",
+              "RootResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.Test.AwsCdkWorkshopStackEndpoint483FDF45.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionTestAwsCdkWorkshopStackEndpoint483FDF45ANY23AAF848",
+            "trace": [
+              "Function.addPermission (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.ts:286:5)",
+              "LambdaIntegration.bind (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\integrations\\lambda.ts:72:20)",
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:200:36)",
+              "RootResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\method.ts:218:22)",
+              "RootResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:187:12)",
+              "ProxyResource.addMethod (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:537:29)",
+              "new ProxyResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:527:29)",
+              "RootResource.addProxy (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\resource.ts:191:12)",
+              "new LambdaRestApi (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-apigateway\\lib\\lambda-api.ts:57:17)",
+              "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:21:5)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Module.m._compile (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Object.require.extensions.<computed> [as .ts] (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "main (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:198:14)",
+              "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\ts-node\\src\\bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1103:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:22:24)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:180:23)",
+              "process.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\app.ts:131:45)",
+              "Object.onceWrapper (node:events:640:26)",
+              "process.emit (node:events:520:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/AwsCdkWorkshopStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.ts:31:27)",
+              "C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:166:5",
+              "visit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:231:5)",
+              "visit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:227:5)",
+              "injectMetadataResources (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:157:3)",
+              "Object.synthesize (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.ts:18:3)",
+              "App.synth (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\stage.ts:180:23)",
+              "process.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\core\\lib\\app.ts:131:45)",
+              "Object.onceWrapper (node:events:640:26)",
+              "process.emit (node:events:520:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\source-map-support\\source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "AwsCdkWorkshopStack"
+    }
+  }
+}
