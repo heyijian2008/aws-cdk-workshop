@@ -267,6 +267,9 @@
                         "provisionedThroughput": {
                           "readCapacityUnits": 5,
                           "writeCapacityUnits": 5
+                        },
+                        "sseSpecification": {
+                          "sseEnabled": true
                         }
                       }
                     },

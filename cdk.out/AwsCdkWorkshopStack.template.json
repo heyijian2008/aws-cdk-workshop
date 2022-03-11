@@ -112,6 +112,9 @@
         "ProvisionedThroughput": {
           "ReadCapacityUnits": 5,
           "WriteCapacityUnits": 5
+        },
+        "SSESpecification": {
+          "SSEEnabled": true
         }
       },
       "UpdateReplacePolicy": "Retain",

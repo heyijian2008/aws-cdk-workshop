@@ -400,7 +400,7 @@
             "trace": [
               "new Role (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.ts:358:18)",
               "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:663:31)",
-              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:28:20)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:29:20)",
               "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:17:30)",
               "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
               "Module._compile (node:internal/modules/cjs/loader:1103:14)",
@@ -431,7 +431,7 @@
               "Function.addToPrincipal (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.ts:164:61)",
               "Table.combinedGrant (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:994:29)",
               "Table.grantReadWriteData (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-dynamodb\\lib\\table.ts:754:17)",
-              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:39:11)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:40:11)",
               "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:17:30)",
               "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
               "Module._compile (node:internal/modules/cjs/loader:1103:14)",
@@ -458,7 +458,7 @@
             "data": "HelloHitCounterHitCounterHandlerDAEA7B37",
             "trace": [
               "new Function (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.ts:741:35)",
-              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:28:20)",
+              "new HitCounter (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\hitcounter.ts:29:20)",
               "new AwsCdkWorkshopStack (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\lib\\aws-cdk-workshop-stack.ts:17:30)",
               "Object.<anonymous> (C:\\Users\\heyij\\CODE\\aws-cdk-workshop\\bin\\aws-cdk-workshop.ts:7:1)",
               "Module._compile (node:internal/modules/cjs/loader:1103:14)",
